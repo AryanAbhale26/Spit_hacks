@@ -1,0 +1,3 @@
+streamlit==1.6.0
+pdfplumber==0.5.28
+googletrans==4.0.0-rc1

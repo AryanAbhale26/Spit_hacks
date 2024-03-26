@@ -1,0 +1,34 @@
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.st-bv {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    background-color: #332f41;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.st-bv.st-dx {
+    box-shadow: none;
+}
+
+.st-bv.st-dx:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+
+.stSelectbox select {
+    background-color: #4a427f;
+    color: #ffffff;
+}
+
+.stSelectbox select:hover {
+    background-color: #665ca0;
+}
+
+.stSelectbox select:focus {
+    background-color: #665ca0;
+}
